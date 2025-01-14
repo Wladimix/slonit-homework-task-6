@@ -21,7 +21,7 @@ function game() {
     while (result === ERROR) {
 
         currentStep++;
-        numberInAttempt = !numberInAttempt ? divideNumberInHalf(max) : min + divideNumberInHalf(max - min);;
+        numberInAttempt = !numberInAttempt ? divideNumberInHalf(max) : min + divideNumberInHalf(max - min);
 
         if (hiddenNumber < numberInAttempt ) {
             showStepInfo(min, max, currentStep, numberInAttempt, ANSWER_LESS);
